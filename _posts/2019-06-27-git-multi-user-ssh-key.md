@@ -52,8 +52,8 @@ Host github.com-new
 
  ---  
  reference :  
- - [Use multiple ssh-keys for different GitHub accounts on the same computer](https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693"미디엄")
- - [Github 다수 계정을 위한 SSH key 설정 :: 마이구미](https://mygumi.tistory.com/96"마이구미")
+ - [Use multiple ssh-keys for different GitHub accounts on the same computer](https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693)
+ - [Github 다수 계정을 위한 SSH key 설정 :: 마이구미](https://mygumi.tistory.com/96)
 
 
 
