@@ -20,7 +20,8 @@ github에서 등록된 public key와 매칭되는 private key를 못 찾아서 �
 1. [user home directory]/.ssh 하위에 config 파일을 만든다.  
 ``` touch [user hoem directory]/.ssh/config```
 2. 다음과 같이 작성한다.  
-```  
+<pre>
+	<code>
 \# Old github Account
 Host github.com
 	HostName github.com
@@ -35,8 +36,9 @@ Host github.com-new
 	User git
 	AddKeysToAgent yes
 	UseKeychain yes
-	IdentityFile ~/.ssh/new_id_rsa  
-```  
+	IdentityFile ~/.ssh/new_id_rsa 
+	</code>
+</pre>
  3. 블로그 용 github repository로 가서 ssh remote url을 복사합니다.
  4. 여기서 github.com을 새로운 ssh-key의 host로 변경해야 합니다.  
  원래 ssh remote url  
