@@ -18,17 +18,19 @@ github에서 등록된 public key와 매칭되는 private key를 못 찾아서 �
   
 ## 해결방법
 1. [user home directory]/.ssh 하위에 config 파일을 만든다.  
-``` touch [user hoem directory]/.ssh/config```
+``` 
+touch [user hoem directory]/.ssh/config
+```
 2. 다음과 같이 작성한다. 
 ```
-## Old github Account
+# Old github Account
 Host github.com
 	HostName github.com
 	User git
 	AddKeysToAgent yes
 	UseKeychain yes
 	IdentityFile ~/.ssh/id_rsa
-## New GitHub account
+# New GitHub account
 Host github.com-new
 	HostName github.com
 	User git
@@ -39,9 +41,13 @@ Host github.com-new
  3. 블로그 용 github repository로 가서 ssh remote url을 복사합니다.
  4. 여기서 github.com을 새로운 ssh-key의 host로 변경해야 합니다.  
  원래 ssh remote url  
- ```git@github.com:[github nickname]/[repository name].git```  
+ ```
+ git@github.com:[github nickname]/[repository name].git
+ ```  
  수정된 ssh remote url  
- ```git@github.com-new:[github nickname]/[repository name].git```
+ ```
+ git@github.com-new:[github nickname]/[repository name].git
+ ```
  5. 변경 사항을 add, commit, 그리고 origin으로 push 했을 때 정상 동작한다면 성공!  
 
  ---  
