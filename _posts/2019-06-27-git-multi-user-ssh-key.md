@@ -24,7 +24,7 @@ github에서 등록된 public key와 매칭되는 private key를 못 찾아서 �
 ``` 
 touch [user hoem directory]/.ssh/config
 ```
-2. 다음과 같이 작성한다. 
+2. 다음과 같이 작성한다.   
 ```
 # Old github Account
 Host github.com
@@ -33,6 +33,7 @@ Host github.com
     AddKeysToAgent yes
     UseKeychain yes
     IdentityFile ~/.ssh/id_rsa
+
 # New GitHub account
 Host github.com-new
     HostName github.com
