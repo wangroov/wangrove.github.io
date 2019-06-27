@@ -33,7 +33,6 @@ Host github.com
     AddKeysToAgent yes
     UseKeychain yes
     IdentityFile ~/.ssh/id_rsa
-
 # New GitHub account
 Host github.com-new
     HostName github.com
@@ -41,7 +40,7 @@ Host github.com-new
     AddKeysToAgent yes
     UseKeychain yes
     IdentityFile ~/.ssh/new_id_rsa
-```  
+``` 
  3. 블로그 용 github repository로 가서 ssh remote url을 복사합니다.
  4. 여기서 github.com을 새로운 ssh-key의 host로 변경해야 합니다.  
  원래 ssh remote url  
