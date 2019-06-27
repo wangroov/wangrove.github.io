@@ -19,7 +19,7 @@ github에서 등록된 public key와 매칭되는 private key를 못 찾아서 �
 ## 해결방법
 1. [user home directory]/.ssh 하위에 config 파일을 만든다.
 ``` touch [user hoem directory]/.ssh/config```
-2. 다음과 같이 작성한다.
+2. 다음과 같이 작성한다.  
 ```
 \# Old github Account
 Host github.com
